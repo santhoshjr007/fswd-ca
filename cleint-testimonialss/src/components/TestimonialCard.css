@@ -1,0 +1,41 @@
+.costumer-card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(0,0,0,0.1);
+    text-align: center;
+    position: relative;
+}
+
+
+
+.costumer-info {
+    margin-top: 10px;
+}
+
+.costumer-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333875;
+    
+}
+
+
+
+.customer-review {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+
+.customer-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
